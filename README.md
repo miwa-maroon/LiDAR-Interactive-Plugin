@@ -20,10 +20,17 @@
 
 ## Tracking Blobs
 Clustering
-method
-- K-means
+method *1
+- MeanShift (band width) 
+- Ward (number of clusters or distance threshold)
+- Gaussian Mixture (the distance of the test point from the center of mass divided by the width of the ellipsoid in the direction of the test point 1)
+
 
 ## Calibration
 Matching placed items and cursors
+
+
+### references
+*1. https://scikit-learn.org/stable/modules/clustering.html
 
 
