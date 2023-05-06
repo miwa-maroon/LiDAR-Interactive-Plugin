@@ -8,7 +8,7 @@
 - Multiple LiDARs
 - Easy Calibration (clicking base, not adjusting camera)
 - Blob Tracking
-- lightweight program(prefably with c++)
+- lightweight program(preferably with c++)
 
 # Process of calibration
 1. Correts the projection
