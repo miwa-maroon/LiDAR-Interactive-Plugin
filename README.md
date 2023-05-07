@@ -25,6 +25,10 @@ method *1
 - Ward (number of clusters or distance threshold)
 - Gaussian Mixture (the distance of the test point from the center of mass divided by the width of the ellipsoid in the direction of the test point 1)
 
+# implementation
+- python and engine comp
+- using python library with C++
+- implemeting the method in C++
 
 ## Calibration
 Matching placed items and cursors
