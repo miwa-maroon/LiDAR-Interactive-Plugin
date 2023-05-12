@@ -47,6 +47,9 @@ method ^1
 - using python library with C++
 - implemeting the method in C++
 
+### parameters
+- Presets like a finger, a hand, a leg, a ball
+- Custom mode(mm)
 
 ## Calibration
 Matching placed items and cursors
@@ -61,15 +64,15 @@ Find best parameters
 ## Collaboration
 - external tox based(git for TD!!)
 
-### references
+# references
 ^1. https://scikit-learn.org/stable/modules/clustering.html
 ^2. https://github.com/cdalitz/hclust-cpp
 ^3. https://vimeo.com/336365649
 ^4. https://medium.com/@shunichi.kasahara/fragment-shadow-touchdesigner-online-interactive-workshop-report-71a84bb0ae97
 
-##### Other LiDAR System
+### Other LiDAR System
 https://github.com/STARRYWORKS-inc/HokuyoUtil
 - doesn't consider projection
 
 https://github.com/FifthChat/LidarTracker
-- 
+- doesn't consider projection
