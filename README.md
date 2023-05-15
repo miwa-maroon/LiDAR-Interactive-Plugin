@@ -48,6 +48,7 @@ b_{RX} + b_{GX} + b_{BX} \
 b_{RY} + b_{GY} + b_{BY} \
 b_{RZ} + b_{GZ} + b_{BZ}
 \end{pmatrix}
+$$
 
 - RGB to XYZ $$ XYZ_{R,G,B} = 
 A
