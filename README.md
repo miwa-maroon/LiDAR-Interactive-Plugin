@@ -27,8 +27,7 @@
 - display gamma[](http://compojigoku.blog.fc2.com/blog-entry-23.html)
 - XYZ color space (needs to measure projected color by spectroradiometer) -> can alternate by camera?
 - measure some samples and estimate parameter(Xr = Arx * R^g(display gamma) + Brx(environment light and black offset) <- scipy)
-- Add X + Y + Z -> $$XYZ_{R,G,B} = 
-\begin{pmatrix} 
+- $$XYZ_{R,G,B} = \begin{pmatrix} 
 X_{R} + X_{G} + X_{B} \\
 Y_{R} + Y_{G} + Y_{B} \\
 Z_{R} + Z_{G} + Z_{B} 
