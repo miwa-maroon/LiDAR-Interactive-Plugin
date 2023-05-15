@@ -46,7 +46,8 @@ B^g
 b_{RX} + b_{GX} + b_{BX} \\
 b_{RY} + b_{GY} + b_{BY} \\
 b_{RZ} + b_{GZ} + b_{BZ}
-\end{pmatrix}$$ 
+\end{pmatrix}$$
+
 RGB to XYZ conversion $$XYZ_{R,G,B} = A\begin{pmatrix} 
 R^g \\
 G^g \\
@@ -57,6 +58,7 @@ b_{RX} + b_{GX} + b_{BX} \\
 b_{RY} + b_{GY} + b_{BY} \\
 b_{RZ} + b_{GZ} + b_{BZ}
 \end{pmatrix}$$ 
+
 - $$\begin{pmatrix} 
 R^g \
 G^g \
