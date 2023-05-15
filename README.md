@@ -49,7 +49,7 @@ b_{RY} + b_{GY} + b_{BY} \\
 b_{RZ} + b_{GZ} + b_{BZ}
 \end{pmatrix}$$
 
-$$\XYZ_{R,G,B} = A\begin{pmatrix} 
+$$XYZ_{R,G,B} = A\begin{pmatrix} 
 R^g \\
 G^g \\
 B^g
@@ -60,7 +60,7 @@ b_{RY} + b_{GY} + b_{BY} \\
 b_{RZ} + b_{GZ} + b_{BZ}
 \end{pmatrix}$$
 
-&$\begin{pmatrix} 
+$$\begin{pmatrix} 
 R^g \\
 G^g \\
 B^g
