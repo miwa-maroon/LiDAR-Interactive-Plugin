@@ -27,7 +27,7 @@
 - display gamma[](http://compojigoku.blog.fc2.com/blog-entry-23.html)
 - XYZ color space (needs to measure projected color by spectroradiometer) -> can alternate by camera?
 - measure some samples and estimate parameter(Xr = Arx * R^g(display gamma) + Brx(environment light and black offset) <- scipy)
-- Add X + Y + Z -> 
+- Add X + Y + Z -> $$ XYZ_{R,G,B} = \begin{pmatrix} X_{R} + X_{G} + X_{B} \Y_{R} + Y_{G} + Y_{B} \Z_{R} + Z_{G} + Z_{B} \end{pmatrix} $$
 $$ XYZ_{R,G,B} = 
 \begin{pmatrix} 
 X_{R} + X_{G} + X_{B} \
@@ -49,7 +49,7 @@ b_{RX} + b_{GX} + b_{BX} \
 b_{RY} + b_{GY} + b_{BY} \
 b_{RZ} + b_{GZ} + b_{BZ}
 \end{pmatrix}
-$$
+ $$
 
 - RGB to XYZ $$ XYZ_{R,G,B} = 
 A
@@ -78,29 +78,6 @@ Z - (b_{RZ} + b_{GZ} + b_{BZ})
 
 - Uniformity Correction(plus alpha)
 
-- XYZ conversion 
-$$ XYZ_{R,G,B} = 
-\begin{pmatrix} 
-X_{R} + X_{G} + X_{B} \
-Y_{R} + Y_{G} + Y_{B} \
-Z_{R} + Z_{G} + Z_{B} 
-\end{pmatrix} =
-\begin{pmatrix} 
-a_{RX} & a_{GX} & a_{BX} \
-a_{RY} & a_{GY} & a_{BY} \
-a_{RZ} & a_{GZ} & a_{BZ} 
-\end{pmatrix}
-\begin{pmatrix} 
-R^g \
-G^g \
-B^g
-\end{pmatrix} +
-\begin{pmatrix} 
-b_{RX} + b_{GX} + b_{BX} \
-b_{RY} + b_{GY} + b_{BY} \
-b_{RZ} + b_{GZ} + b_{BZ}
-\end{pmatrix}
-$$
 
 ## Geometry Calibration
 - auto correction(Open CV) ^3
