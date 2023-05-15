@@ -62,7 +62,7 @@ b_{RY} + b_{GY} + b_{BY}\\
 b_{RZ} + b_{GZ} + b_{BZ}
 \end{pmatrix}
 $$
-- XYZ to RGB \begin{pmatrix} 
+- XYZ to RGB $$\begin{pmatrix} 
 R^g \\
 G^g \\ 
 B^g
@@ -73,7 +73,7 @@ X -(b_{RX} + b_{GX} + b_{BX}) \\
 Y - (b_{RY} + b_{GY} + b_{BY})\\ 
 Z - (b_{RZ} + b_{GZ} + b_{BZ})
 \end{pmatrix}
-
+$$
 - Uniformity Correction(plus alpha)
 
 
