@@ -84,32 +84,37 @@ Z - (b_{RZ} + b_{GZ} + b_{BZ})
 ## Frame Synchroniation
 - AMD Radeon[](https://qiita.com/shks/items/b7c3f3ade589b4186f33#amd-radeon-pro-wx9100%E3%81%A74k5%E5%87%BA%E5%8A%9B%E3%81%99%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E6%89%8B%E9%A0%86)
 
-## Blob Tracking
-Clustering
-method ^1
-#### python
-##### sk-learn
-- MeanShift (band width) 
-- Ward (number of clusters or distance threshold)
-- Gaussian Mixture (the distance of the test point from the center of mass divided by the width of the ellipsoid in the direction of the test point 1)
-
-#### C++
-- hierarchical clustering[](https://github.com/cdalitz/hclust-cpp) ^2
-- MeanShift
-
-### implementation
-- python and engine comp
-- using python library with C++
-- implemeting the method in C++
-
-### parameters
-- Presets like a finger, a hand, a leg, a ball
-- Custom mode(mm)
-
 ## Sensor Calibration
 Matching placed items and cursors
 Find best parameters
 
+### BlobTrack
+- Blob Track CHOP
+- Fifth Chat LiDAR tracker
+- **Custom Blob Tracking**
+Clustering
+method ^1
+##### 1.python
+###### sk-learn
+- MeanShift (band width) 
+- Ward (number of clusters or distance threshold)
+- Gaussian Mixture (the distance of the test point from the center of mass divided by the width of the ellipsoid in the direction of the test point 1)
+
+##### 2.C++
+- hierarchical clustering[](https://github.com/cdalitz/hclust-cpp) ^2
+- MeanShift
+
+#### implementation
+- python and engine comp
+- using python library with C++
+- implemeting the method in C++
+
+#### parameters
+- Presets like a finger, a hand, a leg, a ball
+- Custom mode(mm)
+
+#### result
+Faster 
 
 ## Output
 - OSC
