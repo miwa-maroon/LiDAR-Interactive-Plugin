@@ -78,7 +78,8 @@ Z - (b_{RZ} + b_{GZ} + b_{BZ})
 
 - Uniformity Correction(plus alpha)
 
-- XYZ conversion $$ XYZ_{R,G,B} = 
+- XYZ conversion 
+$$ XYZ_{R,G,B} = 
 \begin{pmatrix} 
 X_{R} + X_{G} + X_{B} \
 Y_{R} + Y_{G} + Y_{B} \
