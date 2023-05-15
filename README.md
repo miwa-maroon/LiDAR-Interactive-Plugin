@@ -72,6 +72,7 @@ Y - (b_{RY} + b_{GY} + b_{BY}) \\
 Z - (b_{RZ} + b_{GZ} + b_{BZ})
 \end{pmatrix}$$
 
+- measure (X1,Y1,Z1) from projected (R1,G1,B1)
 - Uniformity Correction(plus alpha)
 
 
@@ -80,6 +81,8 @@ Z - (b_{RZ} + b_{GZ} + b_{BZ})
 - - calibrate image of cameara with desired TOP
 - save transformation matrix or UV Map
 
+## Frame Synchroniation
+- AMD Radeon[](https://qiita.com/shks/items/b7c3f3ade589b4186f33#amd-radeon-pro-wx9100%E3%81%A74k5%E5%87%BA%E5%8A%9B%E3%81%99%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E6%89%8B%E9%A0%86)
 
 ## Blob Tracking
 Clustering
