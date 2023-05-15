@@ -17,19 +17,41 @@
 - lightweight program(preferably with c++)
 
 # Process 
-1. Correts the projection
+0. Color Calibration
+1. Correts the projection(Geometry Calibration)
 2. Determines the area
-3. Calibrates for blob tracking
+3. Calibrates for blob tracking(Sensor Calibration)
 
 # Technical Background
-## Projection Area
+## Color Calibration
+- display gamma[](http://compojigoku.blog.fc2.com/blog-entry-23.html)
+- XYZ color space (needs to measure projected color by spectroradiometer) -> can alternate by camera?
+- measure some samples and estimate parameter(Xr = Arx * R^g(display gamma) + Brx(environment light and black offset) <- scipy)
+- \begin{equation}
+XYZ_{R,G,B} = 
+\begin{pmatrix}
+  X_{R} + X_{G} + X_{B} \\
+  Y_{R} + Y_{G} + Y_{B} \\
+  Z_{R} + Z_{G} + Z_{B} 
+\end{pmatrix}
+(\#eq:matex) =
+
+\begin{pmatrix}
+
+\end{pmatrix}
+(\#eq:matex)
+\end{equation}
+
+- Uniformity Correction(plus alpha)
+
+
+## Geometry Calibration
 - auto correction(Open CV) ^3
+- - calibrate image of cameara with desired TOP
 - save transformation matrix or UV Map
 
-## Color Calibration
 
-
-## Tracking Blobs
+## Blob Tracking
 Clustering
 method ^1
 #### python
@@ -51,7 +73,7 @@ method ^1
 - Presets like a finger, a hand, a leg, a ball
 - Custom mode(mm)
 
-## Calibration
+## Sensor Calibration
 Matching placed items and cursors
 Find best parameters
 
