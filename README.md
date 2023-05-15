@@ -50,6 +50,7 @@ b_{RZ} + b_{GZ} + b_{BZ}
 \end{pmatrix}$$
 
 - RGB to XYZ conversion 
+
 - $$XYZ_{R,G,B} = A\begin{pmatrix} 
 R^g \\
 G^g \\
@@ -62,6 +63,7 @@ b_{RZ} + b_{GZ} + b_{BZ}
 \end{pmatrix}$$
 
 - XYZ to RGB conversion 
+
 - $$\begin{pmatrix} 
 R^g \\
 G^g \\
