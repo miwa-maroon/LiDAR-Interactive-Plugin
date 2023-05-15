@@ -48,7 +48,7 @@ b_{RY} + b_{GY} + b_{BY} \\
 b_{RZ} + b_{GZ} + b_{BZ}
 \end{pmatrix}$$
 
-- RGB to XYZ $$ XYZ_{R,G,B} = A \begin{pmatrix} 
+- RGB to XYZ $$XYZ_{R,G,B} = A\begin{pmatrix} 
 R^g \
 G^g \
 B^g
