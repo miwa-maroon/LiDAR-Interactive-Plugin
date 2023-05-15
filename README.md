@@ -28,7 +28,7 @@
 - XYZ color space (needs to measure projected color by spectroradiometer) -> can alternate by camera?
 - measure some samples and estimate parameter(Xr = Arx * R^g(display gamma) + Brx(environment light and black offset) <- scipy)
 - Add XYZ
-$$XYZ_{R,G,B} = \begin{pmatrix} 
+- $$XYZ_{R,G,B} = \begin{pmatrix} 
 X_{R} + X_{G} + X_{B} \\
 Y_{R} + Y_{G} + Y_{B} \\
 Z_{R} + Z_{G} + Z_{B} 
@@ -50,7 +50,7 @@ b_{RZ} + b_{GZ} + b_{BZ}
 \end{pmatrix}$$
 
 - RGB to XYZ conversion 
-$$XYZ_{R,G,B} = A\begin{pmatrix} 
+- $$XYZ_{R,G,B} = A\begin{pmatrix} 
 R^g \\
 G^g \\
 B^g
@@ -62,7 +62,7 @@ b_{RZ} + b_{GZ} + b_{BZ}
 \end{pmatrix}$$
 
 - XYZ to RGB conversion 
-$$\begin{pmatrix} 
+- $$\begin{pmatrix} 
 R^g \\
 G^g \\
 B^g
