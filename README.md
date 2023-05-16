@@ -124,28 +124,28 @@ Faster
 ## Collaboration
 *external tox based(git for TD!!)*
 - Base tox(toe?) file
-- **Color Calibration
+- **Color Calibration**
   - Input
-    -
+    - a
   - Output
     - a
-- **Geometry Calibration
+- **Geometry Calibration**
   - Input
-    -
-  - Output
     - a
-  - Parameters
-    - a
-- **Sensor Calibration
-  - Input
-    -
   - Output
     - a
   - Parameters
     - a
-- **Projection
+- **Sensor Calibration**
   - Input
-    -
+    - a
+  - Output
+    - a
+  - Parameters
+    - a
+- **Projection**
+  - Input
+    - a
   - Output
     - a
   - Parameters
