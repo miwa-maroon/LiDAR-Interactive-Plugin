@@ -85,6 +85,8 @@ Z - (b_{RZ} + b_{GZ} + b_{BZ})
 - AMD Radeon[16projectors synchronization](https://qiita.com/shks/items/b7c3f3ade589b4186f33#amd-radeon-pro-wx9100%E3%81%A74k5%E5%87%BA%E5%8A%9B%E3%81%99%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E6%89%8B%E9%A0%86)
 
 ## Sensor Calibration
+While Calibration Mode -> calibrate by each sensor with blob track
+After all calibration -> calculate sensor postion and tracking blob by clustering
 Matching placed items and cursors
 Find best parameters
 
