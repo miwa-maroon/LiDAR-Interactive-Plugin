@@ -24,7 +24,7 @@
 
 # Technical Background
 ## Color Calibration
-- display gamma[](http://compojigoku.blog.fc2.com/blog-entry-23.html)
+- display gamma[gamma](http://compojigoku.blog.fc2.com/blog-entry-23.html)
 - XYZ color space (needs to measure projected color by spectroradiometer) -> can alternate by camera?
 - measure some samples and estimate parameter(Xr = Arx * R^g(display gamma) + Brx(environment light and black offset) <- scipy)
 
@@ -82,7 +82,7 @@ Z - (b_{RZ} + b_{GZ} + b_{BZ})
 - save transformation matrix or UV Map
 
 ## Frame Synchroniation
-- AMD Radeon[](https://qiita.com/shks/items/b7c3f3ade589b4186f33#amd-radeon-pro-wx9100%E3%81%A74k5%E5%87%BA%E5%8A%9B%E3%81%99%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E6%89%8B%E9%A0%86)
+- AMD Radeon[16projectors synchronization](https://qiita.com/shks/items/b7c3f3ade589b4186f33#amd-radeon-pro-wx9100%E3%81%A74k5%E5%87%BA%E5%8A%9B%E3%81%99%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E6%89%8B%E9%A0%86)
 
 ## Sensor Calibration
 Matching placed items and cursors
@@ -101,7 +101,7 @@ method ^1
 - Gaussian Mixture (the distance of the test point from the center of mass divided by the width of the ellipsoid in the direction of the test point 1)
 
 ##### 2.C++
-- hierarchical clustering[](https://github.com/cdalitz/hclust-cpp) ^2
+- hierarchical clustering[cpphclust](https://github.com/cdalitz/hclust-cpp) ^2
 - MeanShift
 
 #### implementation
