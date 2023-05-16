@@ -122,7 +122,34 @@ Faster
 
 
 ## Collaboration
-- external tox based(git for TD!!)
+*external tox based(git for TD!!)*
+- Base tox(toe?) file
+- **Color Calibration**
+  - Input
+    -
+  - Output
+    - a
+- **Geometry Calibration**
+  - Input
+    -
+  - Output
+    - a
+  - Parameters
+    - a
+- **Sensor Calibration**
+  - Input
+    -
+  - Output
+    - a
+  - Parameters
+    - a
+- **Projection**
+  - Input
+    -
+  - Output
+    - a
+  - Parameters
+    - a
 
 # references
 ^1. https://scikit-learn.org/stable/modules/clustering.html
