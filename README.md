@@ -105,7 +105,7 @@ method ^1
 
 ##### 2.C++
 - hierarchical clustering[cpphclust](https://github.com/cdalitz/hclust-cpp) ^2
-- MeanShift
+- MeanShift[meanshift](https://github.com/mattnedrich/MeanShift_cpp)
 
 #### implementation
 - python and engine comp
