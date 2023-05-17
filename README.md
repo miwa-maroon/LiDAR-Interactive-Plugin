@@ -104,12 +104,12 @@ method ^1
 - Gaussian Mixture (the distance of the test point from the center of mass divided by the width of the ellipsoid in the direction of the test point 1)
 
 ##### 2.C++
-- hierarchical clustering[cpphclust](https://github.com/cdalitz/hclust-cpp) ^2
+- [hierarchical clustering](https://github.com/cdalitz/hclust-cpp) ^2
 - [MeanShift](https://github.com/mattnedrich/MeanShift_cpp) and [thirepo](https://github.com/w00zie/mean_shift#table-of-contents) and [thisrepo](https://github.com/LorenzoAgnolucci/MeanShiftClustering)
 
 #### implementation
 - python and engine comp
-- using python library with C++
+- using python library with PythonInterface in C++ (only works when the Plugin is installed as a Custom Operator)
 - implemeting the method in C++
 
 #### parameters
