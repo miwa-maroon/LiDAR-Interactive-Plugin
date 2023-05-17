@@ -1,6 +1,13 @@
 # LiDAR-Interactive-Plugin
 
-# dev
+# Sensor Calibration
+schedule
+- cpp CHOP(input channels with samples output channels with samples)
+- meanShift clustering in cpp
+- hclust implementation
+- YDLiDAR implementation
+- clustering with whole sensor data
+- try sklearn clustering
 
 # Goal
 - easy setup including projection, color correction, calibration and adjustimg(preset style)
