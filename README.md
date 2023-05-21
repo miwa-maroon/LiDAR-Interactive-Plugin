@@ -106,6 +106,7 @@ method ^1
 ##### 2.C++
 - [hierarchical clustering](https://github.com/cdalitz/hclust-cpp) ^2
 - [MeanShift](https://github.com/mattnedrich/MeanShift_cpp) and [thirepo](https://github.com/w00zie/mean_shift#table-of-contents) and [thisrepo](https://github.com/LorenzoAgnolucci/MeanShiftClustering)
+- Nearest Points
 
 #### implementation
 - python and engine comp
