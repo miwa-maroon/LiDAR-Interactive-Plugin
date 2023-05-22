@@ -113,6 +113,9 @@ method ^1
 - using python library with PythonInterface in C++ (only works when the Plugin is installed as a Custom Operator)
 - implemeting the method in C++
 
+#### optimization
+- using [Eigen library](http://eigen.tuxfamily.org/index.php?title=Main_Page) to optimize loop
+
 #### parameters
 - Presets like a finger, a hand, a leg, a ball
 - Custom mode(mm)
