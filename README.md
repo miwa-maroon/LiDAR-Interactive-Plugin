@@ -118,7 +118,8 @@ method ^1
 - Custom mode(mm)
 
 #### result
-Faster 
+- MeanShift cpp -> not good, slow
+- 
 
 ## Output
 - OSC
