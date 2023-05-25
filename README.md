@@ -121,8 +121,9 @@ method ^1
 - Custom mode(mm)
 
 #### result
-- MeanShift cpp -> not good, slow
-- 
+- MeanShift_cpp -> good, fast
+- MeanShiftClustering -> cannot use multithread(OpenMP), kinda slow
+- mean_shift -> not well
 
 ## Output
 - OSC
