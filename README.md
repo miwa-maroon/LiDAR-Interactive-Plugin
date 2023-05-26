@@ -110,7 +110,8 @@ method ^1
 - Nearest Points + convolution
 
 ##### 3. CUDA
-- 
+- implemented in touch cpp. ref -> [ONNX Runtime in C++ CUDA plugin](https://forum.derivative.ca/t/using-onnx-runtime-in-c-cuda-plugin/153510), [
+CudaSortTOP](https://github.com/vinz9/CudaSortTOP/tree/master)
 
 #### implementation
 - python and engine comp
