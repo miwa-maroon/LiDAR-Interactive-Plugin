@@ -1,7 +1,0 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (CPlusPlusCHOPExample.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  BlobTrack.cpp
-C:\Users\miwat\Documents\touchdesigner\touchdesigner\projects\Hokuyo\LiDAR-Interactive-Plugin\Tox\SensorCalibration\Cplusplus\BlobTrack\BlobTrack.cpp(174,35): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\miwat\Documents\touchdesigner\touchdesigner\projects\Hokuyo\LiDAR-Interactive-Plugin\Tox\SensorCalibration\Cplusplus\BlobTrack\BlobTrack.cpp(185,30): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\miwat\Documents\touchdesigner\touchdesigner\projects\Hokuyo\LiDAR-Interactive-Plugin\Tox\SensorCalibration\Cplusplus\BlobTrack\BlobTrack.cpp(200,30): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-     Creating library C:\Users\miwat\Documents\touchdesigner\touchdesigner\projects\Hokuyo\LiDAR-Interactive-Plugin\Tox\SensorCalibration\Cplusplus\BlobTrack\Debug\BlobTrack.lib and object C:\Users\miwat\Documents\touchdesigner\touchdesigner\projects\Hokuyo\LiDAR-Interactive-Plugin\Tox\SensorCalibration\Cplusplus\BlobTrack\Debug\BlobTrack.exp
-  CPlusPlusCHOPExample.vcxproj -> C:\Users\miwat\Documents\touchdesigner\touchdesigner\projects\Hokuyo\LiDAR-Interactive-Plugin\Tox\SensorCalibration\Cplusplus\BlobTrack\Debug\BlobTrack.dll
