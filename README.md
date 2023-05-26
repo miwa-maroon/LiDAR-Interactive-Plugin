@@ -105,8 +105,11 @@ method ^1
 
 ##### 2.C++
 - [hierarchical clustering](https://github.com/cdalitz/hclust-cpp) ^2
-- [MeanShift](https://github.com/mattnedrich/MeanShift_cpp) and [thirepo](https://github.com/w00zie/mean_shift#table-of-contents) and [thisrepo](https://github.com/LorenzoAgnolucci/MeanShiftClustering)
+- [MeanShift_cpp](https://github.com/mattnedrich/MeanShift_cpp) and [mean_shift](https://github.com/w00zie/mean_shift#table-of-contents) and [MeanShiftClustering](https://github.com/LorenzoAgnolucci/MeanShiftClustering)
 - Nearest Points + convolution
+
+##### 3. CUDA
+- 
 
 #### implementation
 - python and engine comp
@@ -124,6 +127,8 @@ method ^1
 - MeanShift_cpp -> good, fast
 - MeanShiftClustering -> cannot use multithread(OpenMP), kinda slow
 - mean_shift -> not well
+- hclust(have compile bugs)
+- 
 
 ## Output
 - OSC
