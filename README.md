@@ -87,7 +87,7 @@ Z - (b_{RZ} + b_{GZ} + b_{BZ})
 ## Sensor Calibration
 While Calibration Mode -> calibrate by each sensor with blob track
 After all calibration -> calculate sensor postion and tracking blob by clustering from calibrated sensor values
-sensor values(m) -> screen values(px)
+sensor values(m) -> screen values(normalize pos LB(0,0) RU(1,1))
 Matching placed items and cursors
 Find best parameters
 
