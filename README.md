@@ -2,12 +2,9 @@
 
 # Sensor Calibration
 schedule
-- cpp CHOP(input channels with samples output channels with samples)
-- meanShift clustering in cpp
-- hclust implementation
-- YDLiDAR implementation
-- clustering with whole sensor data
-- try sklearn clustering
+- test data inteporation with interporate chop and feedback chop
+- test argument data with resample CHOP
+- optimize YDLIDAR CHOP code
 
 # Goal
 - easy setup including projection, color correction, calibration and adjustimg(preset style)
@@ -124,6 +121,11 @@ method ^1
 
 #### result
 Faster 
+- cpp CHOP(input channels with samples output channels with samples) -. done
+- meanShift clustering in cpp -> heavy
+- YDLiDAR implementation -> done
+- try sklearn clustering -> not accurate compared touch blob track chop
+- preprocessing -> dont change the size before blob track(will be unstable), reduce noise(de-spike in filter CHOP), argument data with resample CHOP
 
 ## Output
 - OSC
