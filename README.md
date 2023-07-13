@@ -8,6 +8,7 @@ schedule
 - can get less point(250) it should be 500 need to find out the issue
 - fixed the number of point
 - if dis is 0, ineterpolate with pre and next val
+- try change the sdk to master
 
 # Goal
 - easy setup including projection, color correction, calibration and adjustimg(preset style)
