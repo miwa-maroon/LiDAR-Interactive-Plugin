@@ -5,6 +5,9 @@ schedule
 - test data inteporation with interporate chop and feedback chop
 - test argument data with resample CHOP
 - optimize YDLIDAR CHOP code
+- can get less point(250) it should be 500 need to find out the issue
+- fixed the number of point
+- if dis is 0, ineterpolate with pre and next val
 
 # Goal
 - easy setup including projection, color correction, calibration and adjustimg(preset style)
