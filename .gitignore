@@ -15,6 +15,9 @@
 *.so
 *.dylib
 *.dll
+!Tox/SensorCalibration/LiDARPlugins/YDLiDAR/
+#Tox/SensorCalibration/LiDARPlugins/YDLiDAR/*
+!Tox/SensorCalibration/LiDARPlugins/YDLiDAR/YDLiDARCHOP.dll
 
 # Fortran module files
 *.mod
