@@ -1,4 +1,0 @@
-﻿  CPlusPlusCHOPExample.cpp
-C:\Users\miwat\Documents\touchdesigner\touchdesigner\projects\Hokuyo\LiDAR-Interactive-Plugin\Tox\SensorCalibration\Cplusplus\CHOPExample\CPlusPlusCHOPExample.cpp(172,30): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-     Creating library C:\Users\miwat\Documents\touchdesigner\touchdesigner\projects\Hokuyo\LiDAR-Interactive-Plugin\Tox\SensorCalibration\Cplusplus\CHOPExample\Debug\CPlusPlusCHOPExample.lib and object C:\Users\miwat\Documents\touchdesigner\touchdesigner\projects\Hokuyo\LiDAR-Interactive-Plugin\Tox\SensorCalibration\Cplusplus\CHOPExample\Debug\CPlusPlusCHOPExample.exp
-  CPlusPlusCHOPExample.vcxproj -> C:\Users\miwat\Documents\touchdesigner\touchdesigner\projects\Hokuyo\LiDAR-Interactive-Plugin\Tox\SensorCalibration\Cplusplus\CHOPExample\Debug\CPlusPlusCHOPExample.dll
