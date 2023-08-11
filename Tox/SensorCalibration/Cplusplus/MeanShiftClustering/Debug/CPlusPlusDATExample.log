@@ -1,5 +1,0 @@
-﻿  CPlusPlusDATExample.cpp
-C:\Users\miwat\Documents\touchdesigner\touchdesigner\projects\Hokuyo\LiDAR-Interactive-Plugin\Tox\SensorCalibration\Cplusplus\MeanShiftClustering\Point.h(24,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\miwat\Documents\touchdesigner\touchdesigner\projects\Hokuyo\LiDAR-Interactive-Plugin\Tox\SensorCalibration\Cplusplus\MeanShiftClustering\CPlusPlusDATExample.cpp(179,26): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-     Creating library C:\Users\miwat\Documents\touchdesigner\touchdesigner\projects\Hokuyo\LiDAR-Interactive-Plugin\Tox\SensorCalibration\Cplusplus\MeanShiftClustering\Debug\CPlusPlusDATExample.lib and object C:\Users\miwat\Documents\touchdesigner\touchdesigner\projects\Hokuyo\LiDAR-Interactive-Plugin\Tox\SensorCalibration\Cplusplus\MeanShiftClustering\Debug\CPlusPlusDATExample.exp
-  CPlusPlusDATExample.vcxproj -> C:\Users\miwat\Documents\touchdesigner\touchdesigner\projects\Hokuyo\LiDAR-Interactive-Plugin\Tox\SensorCalibration\Cplusplus\MeanShiftClustering\Debug\CPlusPlusDATExample.dll

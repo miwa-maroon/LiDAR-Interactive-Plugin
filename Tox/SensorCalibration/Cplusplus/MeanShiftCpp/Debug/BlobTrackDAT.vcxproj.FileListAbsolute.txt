@@ -1,2 +1,0 @@
-C:\Users\miwat\Documents\touchdesigner\touchdesigner\projects\Hokuyo\LiDAR-Interactive-Plugin\Tox\SensorCalibration\Cplusplus\BlobTrackDAT\Debug\BlobTrackDAT.dll
-C:\Users\miwat\Documents\touchdesigner\touchdesigner\projects\Hokuyo\LiDAR-Interactive-Plugin\Tox\SensorCalibration\Cplusplus\MeanShiftCpp\Debug\BlobTrackDAT.dll
