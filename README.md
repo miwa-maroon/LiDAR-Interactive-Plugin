@@ -6,4 +6,4 @@ support LiDAR
 - Hokuyo
 - YDLiDAR X2
 
-looking for contributer to make a bunch of LiDAR options. Feel free to reach me out.
+looking for contributers to make a bunch of LiDAR options. Feel free to reach me out.
